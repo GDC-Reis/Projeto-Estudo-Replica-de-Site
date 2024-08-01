@@ -1,0 +1,53 @@
+.menu{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    /* background: red; */
+    /* border-bottom: 1px solid black; */
+}
+
+/* .teste{
+} */
+
+.menu ul{
+    width: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style: none;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.text-intro{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.text-intro p{
+    padding: 1.2rem;
+    margin: 0 auto;
+}
+
+
+.text-intro button{
+    background: #34d399;
+    border: 1px solid transparent;
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 4px;
+}
+
+.img-info{
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url('https://intelli-guide-pi.vercel.app/_next/static/media/Questions-bro.a1b55ec9.svg');
+    background-repeat: no-repeat;
+    width: 23rem;
+    height: 17rem;
+    background-position: center;
+}
