@@ -1,0 +1,78 @@
+.text-intro,
+.text-intro-second_sc{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.text-intro p,
+.text-intro-second_sc p{
+    padding: 1rem;
+    margin: auto 1rem;
+    text-align: start;
+    font-weight: 300;
+}
+
+.text-intro h3,
+.text-intro-second_sc h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.text-intro button{
+    background: #34d399;
+    color: #ffff;
+    border: 1px solid transparent;
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.img-info{
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url('https://intelli-guide-pi.vercel.app/_next/static/media/Questions-bro.a1b55ec9.svg');
+    background-repeat: no-repeat;
+    width: 23rem;
+    height: 17rem;
+    background-position: center;
+}
+
+.secund_sc_info{
+    background: #16a34a;
+    color: #FFFF;
+}
+
+.text-intro-second_sc{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+
+/* .text-intro-second_sc h3{
+    text-align: center;
+    margin-top: .5rem;
+} */
+
+.text-intro-second_sc button{
+    background: #FFFF;
+    border: 1px solid transparent;
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.img-info_second_sc{
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url('https://intelli-guide-pi.vercel.app/_next/static/media/interrogation.3a881137.svg');
+    background-repeat: no-repeat;
+    width: 23rem;
+    height: 17rem;
+    background-position: center; 
+}

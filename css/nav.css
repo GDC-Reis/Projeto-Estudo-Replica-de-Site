@@ -1,15 +1,9 @@
-.menu{
+/* .menu{
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-items: center;
-    /* background: red; */
-    /* border-bottom: 1px solid black; */
 }
-
-/* .teste{
-} */
 
 .menu ul{
     display: flex;
@@ -18,80 +12,26 @@
     text-align: center;
 }
 
-.text-intro,
-.text-intro-second_sc{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    justify-items: center;
-}
-
-.text-intro p,
-.text-intro-second_sc p{
-    padding: 1rem;
-    margin: 0 auto;
-    text-align: start;
-}
-
-.text-intro h3,
-.text-intro-second_sc h3{
-    text-align: center;
-    margin-top: 1rem;
-}
-
-
-.text-intro button{
-    background: #34d399;
-    color: #ffff;
-    border: 1px solid transparent;
-    width: 7rem;
-    height: 1.5rem;
-    border-radius: 4px;
-    margin-bottom: 2rem;
-}
-
-.img-info{
-    display: inline-block;
-    margin: 0 auto;
-    background-image: url('https://intelli-guide-pi.vercel.app/_next/static/media/Questions-bro.a1b55ec9.svg');
-    background-repeat: no-repeat;
-    width: 23rem;
-    height: 17rem;
-    background-position: center;
-}
-
-.secund_sc_info{
-    background: #16a34a;
-    color: #FFFF;
-}
-
-.text-intro-second_sc{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    justify-items: center;
-}
-
-/* .text-intro-second_sc h3{
-    text-align: center;
-    margin-top: .5rem;
+.img-menu-hamburger{
+    justify-content: end;
+    width: 2.5rem;
 } */
 
-.text-intro-second_sc button{
-    background: #FFFF;
-    border: 1px solid transparent;
-    width: 7rem;
-    height: 1.5rem;
-    border-radius: 4px;
-    margin-bottom: 2rem;
+.menu {
+    padding: 1rem;
+    display: flex; /* Mudança de grid para flex */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
 }
 
-.img-info_second_sc{
-    display: inline-block;
-    margin: 0 auto;
-    background-image: url('https://intelli-guide-pi.vercel.app/_next/static/media/interrogation.3a881137.svg');
-    background-repeat: no-repeat;
-    width: 23rem;
-    height: 17rem;
-    background-position: center; 
+.menu .img-logo {
+    display: flex; /* Certifica-se de que o conteúdo do img-logo se alinha corretamente */
+}
+
+.menu h1 {
+    margin: 0; /* Remove qualquer margem padrão do H1 */
+}
+
+.img-menu-hamburger {
+    width: 2.5rem;
 }
