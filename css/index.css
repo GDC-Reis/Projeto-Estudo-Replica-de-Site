@@ -9,13 +9,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
 }
