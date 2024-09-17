@@ -1,0 +1,29 @@
+@import url('./nav.css');
+@import url('./section.css');
+@import url('./aside.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* 
+    -> Estilo aplicado apenas para descktop
+body{
+    width: 21rem;
+    margin: 0 auto;
+} 
+    */

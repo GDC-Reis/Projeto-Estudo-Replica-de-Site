@@ -1,0 +1,45 @@
+/* .menu{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    text-align: center;
+}
+
+.img-menu-hamburger{
+    justify-content: end;
+    width: 2.5rem;
+} 
+*/
+
+.menu {
+    padding: 1rem;
+    display: flex; /* Mudança de grid para flex */
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.menu .img-logo {
+    display: flex; /* Certifica-se de que o conteúdo do img-logo se alinha corretamente */
+}
+
+.menu h1 {
+    margin: 0; /* Remove qualquer margem padrão do H1 */
+}
+
+/*MENU HAMBURGER*/
+.img-menu-hamburger {
+    width: 2.5rem;
+    cursor: pointer;
+    display: flex;
+}
+
+.img-menu-hamburger.close{
+    display: none;
+}
